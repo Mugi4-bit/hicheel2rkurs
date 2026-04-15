@@ -1,20 +1,23 @@
 import React from "react";
 
-import Navdasgal from "./Navdasgal";
-import Herodasgal from "./Herodasgal";
-import Featuresdasgal from "./Featuresdasgal";
-import Whychooseus from "./Whychooseus";
-import Footerdasgal from "./Footerdasgal";
-const Web1 = () => {
+import Topbar from "./ComponentGym/Topbar";
+import Intro from "./ComponentGym/Intro";
+import ProgramList from "./ComponentGym/ProgramList";
+import TrainerSection from "./ComponentGym/TrainerSection";
+import BottomFooter from "./ComponentGym/BottomFooter";
+
+function Web1() {
   return (
-    <div>
-      <Navdasgal />
-      <Herodasgal />
-      <Featuresdasgal />
-      <Whychooseus />
-      <Footerdasgal />
-    </div>
+    <>
+      <div>
+        <Topbar></Topbar>
+        <Intro></Intro>
+        <ProgramList></ProgramList>
+        <TrainerSection></TrainerSection>
+        <BottomFooter></BottomFooter>
+      </div>
+    </>
   );
-};
+}
 
 export default Web1;

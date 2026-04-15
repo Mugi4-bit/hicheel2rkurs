@@ -4,6 +4,7 @@ import viteLogo from "/vite.svg";
 import "./App.css";
 import TWHicheel from "./Component/TWHicheel";
 import Web1 from "./Component/Web1";
+import FitnessPage from "./pages/FitnessPage";
 
 function App() {
   const [count, setCount] = useState(0);
